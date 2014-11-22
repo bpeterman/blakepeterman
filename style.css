@@ -1,0 +1,223 @@
+/*
+Theme Name: Blake Simple
+Theme URI: http://blakepeterman.com
+Author: Blake Peterman
+Author URI: http://blakepeterman.com
+Description: A pretty simple theme, designed by Blake Peterman for Blake Peterman.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+    border-top: 4px; 
+    border-top-style: solid;
+    border-top-color: black;
+    margin: 0;
+    width:100%;
+}
+a {
+    text-decoration:none;
+    color:grey;
+    font-weight:bold;
+}
+
+input[type="text"], input[type="email"], input[type="submit"] {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 22px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="text"]:focus, input[type="email"]:focus{
+  outline: none;
+  border: solid 3px #3366FF;
+}
+
+textarea {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 22px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+textarea:focus {
+  outline: none;
+  border: solid 3px #3366FF;
+}
+
+
+#wrapper { 
+    max-width:800px; 
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+#header h1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 65px;
+    font-family: 'Bitter', serif;
+    font-weight:700;
+}
+
+
+#description{
+    font-size: 28px;
+    line-height: 1.2;
+    color: #aaa;
+    text-align: center;
+    margin: 20 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+#profile img {
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#menu {
+    margin-right: 50px;
+    font-size: 100%;
+    font-size: 22px;
+    border-top: 1px solid #dfe4ea;
+    border-bottom: 1px solid #dfe4ea;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+    list-style-type: none;
+    padding: .2em 1em;
+    text-decoration: none;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+#menu a:hover{
+    text-decoration: underline;
+}
+
+#posts{
+    
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+#post-title{
+    text-align:center;
+}
+#post-title a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 56px;
+    text-align:center;
+    font-family: 'Bitter', serif;
+}
+#posts-text{
+    font-size: 20px;
+}
+#posts-date{
+    font-size: 20px;
+    color: gray;
+    text-align:center;
+    font-family: 'Bitter', serif;
+    font-style: italic;
+}
+#copy-text{
+    font-size: 10px;
+    color: gray;
+}
+#copy-text a{
+    font-size: 10px;
+    color: gray;
+    text-decoration: underline;
+}
+
+#content { 
+    width: 100%; 
+}
+#footer { 
+    border-top: 1px solid #dfe4ea;
+    padding-top: 10px;
+}
+.title { 
+    font-size: 11pt;
+}
+.aligncenter, img.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; }
+
+#comments{
+    text-align: left;
+}
+
+.comment-list ol {
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+.comment{
+    text-align: left;
+    list-style-type: none;
+    margin-bottom: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 2px solid gray;
+    margin-left: -38px;
+    
+    
+
+}
+.avatar{
+    border-radius: 24px;
+}
+#individual-comment{
+    display: block;
+}
+#comment-text{
+    display: inline-block;
+    vertical-align:top;
+    height:auto;
+    width:auto;
+
+}
+#comment-pic{
+    display:inline-block;
+    height: 48px;
+    width: 49px;
+}
+#comment-input{
+    text-align: left;
+}
+.navigation a{
+    text-decoration: none;
+    color: gray;
+}
